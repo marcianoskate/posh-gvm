@@ -64,6 +64,8 @@ For a general overview of the feature please the [GVM Project Page](http://gvmto
 
 Add `Import-Module posh-gvm` to your powershell profile to be able to use it after each start of Powershell. If you do not know where your profile is located, execute `$Global:profile`.
 
+Replace `sdkman` for `gvm` and you'll have access to all the commands that you see in in the (GVM Tool homepage, now called sdkman)[http://sdkman.io/usage.html]
+
 ### Configuration
 By default posh-gvm put all the data (inclusive the to be installed executables) into ~/.posh_gvm. You can change the location by setting:
 
@@ -76,9 +78,6 @@ Similar to the BASH client you can configure posh-gvm to automatically set new i
 	$Global:PGVM_AUTO_ANSWER = $true
 
 in your profile.
-
-## Use
-Replace `sdkman` for `gvm` and you'll have access to all the commands that you see in in the (GVM Tool homepage, now called sdkman)[http://sdkman.io/usage.html]
 
 
 ## Uninstall
